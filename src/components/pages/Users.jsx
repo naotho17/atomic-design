@@ -5,8 +5,8 @@ import { UserCard } from "../organisms/user/UserCard";
 // ダミーの配列を10個作ってる
 const users = [...Array(10).keys()].map((val) => {
   return {
-    id: val,
-    name: `なおちょ${val}`,
+    id: val + 1,
+    name: `なおちょ${val + 1}`,
     image: "https://source.unsplash.com/yihlaRCCvd4",
     email: "12345@example.com",
     phone: "090-1111-2222",

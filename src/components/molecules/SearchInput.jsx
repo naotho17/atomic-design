@@ -4,7 +4,7 @@ import { Input } from "../atoms/input/Input";
 
 // 検索窓とボタンがセットになったmolecule
 
-export const SeachInput = () => {
+export const SearchInput = () => {
   return (
     <SContainer>
       <Input placeholder="検索条件を入力" />

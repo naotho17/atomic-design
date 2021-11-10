@@ -30,5 +30,7 @@ const SDl = styled.dl`
   dd {
     padding-left: 32px;
     padding-bottom: 8px;
+    /* 縮まったら文字を折り返す */
+    overflow-wrap: break-word;
   }
 `;
